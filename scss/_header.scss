@@ -1,0 +1,23 @@
+.header{
+    background-color: black;
+    height:5.5625rem;
+
+    &__burger {
+        //color: white;
+        background-color: white;
+        height: 0.9375rem;
+        width: 1rem;
+    }
+
+    &__links {
+        font-size: 0.8125rem;    //13px
+        letter-spacing: 0.125rem;   //2px
+        line-height: 1.5625rem;  //25px
+        font-weight: 700;
+        text-transform: uppercase;
+        color: white;
+    }
+
+
+
+}

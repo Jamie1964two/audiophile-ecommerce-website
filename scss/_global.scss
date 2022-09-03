@@ -1,0 +1,57 @@
+body{
+
+}
+
+
+h1,h2,h3,h4,h5,h6{ 
+    text-transform:uppercase;
+    font-weight: 700;
+}
+
+h1{
+    letter-spacing: 0.125rem;   //2px
+    line-height: 3.625rem;  //58px
+}
+
+h2{
+    letter-spacing: 0.09375rem;     //1.5px
+    line-height: 2.75rem;  //44px
+}
+
+h3{
+    letter-spacing: 0.071875rem;     //1.15px
+    line-height: 2.25rem;  //36px
+}
+
+h4{
+    letter-spacing: 0.125rem;   //2px
+    line-height: 2rem;  //38px
+}
+
+h5{
+    letter-spacing: 0.10625rem;     //1.7px
+    line-height: 2.0625rem;  //33px
+}
+
+h6{
+    letter-spacing: 0.08125rem; //1.3px
+    line-height: 1.5rem;  //24px
+}
+
+.overline{
+    font-size: 0.875rem;    //14px
+    letter-spacing: 0.625rem;   //10px
+    line-height: 1.1875rem;  //19px
+    color: $orange;
+    text-transform: uppercase;
+}
+
+.subTitle {
+    font-size: 0.8125rem;    //13px
+    letter-spacing: 0.0625rem;   //1px
+    line-height: 1.5625rem;  //25px
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $orange;
+}
+
