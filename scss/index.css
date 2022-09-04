@@ -10985,6 +10985,15 @@ h6, .h6 {
 .header {
   background-color: black;
   height: 5.5625rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 768px) {
+  .header {
+    padding-left: 2.4375rem;
+    padding-right: 2.4375rem;
+  }
 }
 .header__burger {
   background-color: white;
@@ -10998,4 +11007,21 @@ h6, .h6 {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
+  transition: color 300ms ease-in-out;
+}
+.header__links:hover {
+  color: #D87D4A;
+}
+.header__headings {
+  width: 100%;
+  justify-content: center;
+}
+.header__cart_a {
+  position: relative;
+  left: 0px;
+  transition: left 400ms ease-in-out;
+  padding-left: 15px;
+}
+.header__cart_a:hover {
+  left: 15px;
 }/*# sourceMappingURL=index.css.map */
