@@ -10983,7 +10983,7 @@ h6, .h6 {
 }
 
 .header {
-  background-color: black;
+  background-color: #101010;
   height: 5.5625rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -11024,4 +11024,53 @@ h6, .h6 {
 }
 .header__cart_a:hover {
   left: 15px;
+}
+
+.hero {
+  background-color: #101010;
+  text-align: center;
+  height: 31.875rem;
+}
+.hero__imgBox {
+  height: 31.875rem;
+  width: 100%;
+  background-image: url("../assets/product-xx99-mark-two-headphones/mobile/image-product-black.png");
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: 36rem;
+}
+.hero__newProduct {
+  padding-top: 6.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  color: white;
+  opacity: 75%;
+  font-weight: 300;
+}
+.hero__title {
+  color: white;
+  margin: 0 auto 1.5rem auto;
+  max-width: 450px;
+  line-height: 2.5rem;
+}
+.hero__description {
+  color: white;
+  opacity: 75%;
+  font-size: 0.8125rem;
+  letter-spacing: 0.0625rem;
+  line-height: 1.5625rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  max-width: 320px;
+}
+.hero__button {
+  padding: 1.25rem 2rem;
+  background-color: #D87D4A;
+  border: 0;
+  color: white;
+  transition: background-color 300ms ease-in-out;
+}
+.hero__button:hover {
+  background-color: #fbaf85;
 }/*# sourceMappingURL=index.css.map */
