@@ -9,6 +9,7 @@
   "author": "Jamie Moreland",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.2.0",
+    "sass-rem": "^3.0.0"
   }
 }

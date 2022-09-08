@@ -1,4 +1,7 @@
+@use '../node_modules/sass-rem' as *; 
+
 @import 'custom.scss';
 @import 'global.scss';
 @import 'header.scss';
 @import 'hero.scss';
+@import 'categories.scss';

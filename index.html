@@ -1,127 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Audiophile e-commerce website</title>
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon-32x32.png"
+        />
 
-  <link rel="stylesheet" href="./scss/index.css">
+        <title>Frontend Mentor | Audiophile e-commerce website</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
+        <link rel="stylesheet" href="./scss/index.css" />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Public+Sans:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<body>
+    <header>
+        <nav class="header navbar navbar-expand-md navbar-light">
+            <div class="container-md px-0">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <img alt="toggleMenu" src="./assets/burger.svg" />
+                    <!-- <span class="navbar-toggler-icon header__burger"></span> -->
+                </button>
 
-<nav class="header navbar navbar-expand-md navbar-light">
-  <div class="container-lg px-0">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/audiophile.svg" />
+                </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <img alt="toggleMenu"src="./assets/burger.svg">
-      <!-- <span class="navbar-toggler-icon header__burger"></span> -->
-    </button>
+                <div
+                    class="collapse navbar-collapse m-auto mb-0 mt-1"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-lg-0 header__headings">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link header__links"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
 
-    <a class="navbar-brand" href="#">
-      <img src="./assets/audiophile.svg">
-    </a>
-    
+                        <li class="nav-item">
+                            <a class="nav-link header__links" href="#"
+                                >Headphones</a
+                            >
+                        </li>
 
-    
+                        <li class="nav-item">
+                            <a class="nav-link header__links" href="#"
+                                >Speakers</a
+                            >
+                        </li>
 
-    <div class="collapse navbar-collapse m-auto mb-0 mt-1" id="navbarSupportedContent">
+                        <li class="nav-item">
+                            <a class="nav-link header__links" href="#"
+                                >Earphones</a
+                            >
+                        </li>
+                    </ul>
+                </div>
 
-      <ul class="navbar-nav me-auto mb-lg-0 header__headings">
-        
-        <li class="nav-item">
-          <a class="nav-link header__links" aria-current="page" href="#">Home</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link header__links" href="#">Headphones</a>
-        </li>
+                <a class="navbar-brand me-0 header__cart_a" href="#">
+                    <div class="header__cart">
+                        <img class="" src="./assets/cart.svg" />
+                        <!-- <div class="header__cart"></div>        -->
+                    </div>
+                </a>
+            </div>
+          </nav>
+    </header>
 
-        <li class="nav-item">
-          <a class="nav-link header__links" href="#">Speakers</a>
-        </li>
+    <body>
+        <section class="hero container-fluid mx-0 px-0">
+            <div class="hero__innerBox container-md px-0">
+                <!-- <div class="hero__background container-lg px-0"> -->
 
-        <li class="nav-item">
-          <a class="nav-link header__links" href="#">Earphones</a>
-        </li>
+                <div class="hero__imgBox"></div>
+                <!-- <img src="./assets/product-xx99-mark-two-headphones/mobile/image-product.jpg" alt="product-xx99-mark-two-headphones" class="hero__img"> -->
+                <div class="hero__text">
+                    <h3 class="overline hero__newProduct">New product</h3>
+                    <h1 class="hero__title">XX99 Mark II Headphones</h1>
+                    <p class="hero__description">
+                        Experience natural, lifelike audio and exceptional build
+                        quality made for the passionate music enthusiast.
+                    </p>
+                    <button class="hero__button subTitle">See product</button>
+                </div>
+            </div>
+        </section>
 
-      </ul>
+        <section class="categories container-fluid mx-0 px-0">
+          <div class="rows">
+            <div class="col-12 col-md-4 categories__card">
+              <div class="categories__grey">
+                <div class="categories__blur"></div>
+                <div class="categories__cardContent">
+                  <img src="assets/shared/mobile/shop-link-headphones.png" class="categories__img">
+                  <h3 class="categories__category"">Headphones</h3>
+                  <a class="categories__link" href="#">Shop <span class="categories__arrow">></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-4"></div>
+          </div>
+        </section>
 
-    </div>
-
-    <a class="navbar-brand me-0 header__cart_a" href="#">
-      <div class="header__cart">
-      <img class="" src="./assets/cart.svg">
-      <!-- <div class="header__cart"></div>        -->
-      </div>
-    </a>
-
-
-  </div>
-</nav>
-  
-  <section class="hero container-fluid mx-0">
-
-    <!-- <div class="hero__background container-lg px-0"> -->
-
-    <div class="hero__imgBox">
-        <!-- <img src="./assets/product-xx99-mark-two-headphones/mobile/image-product.jpg" alt="product-xx99-mark-two-headphones" class="hero__img"> -->
-      
-      <h3 class="overline hero__newProduct">New product</h3>
-      <h1 class="hero__title">XX99 Mark II Headphones</h1>
-      <p class="hero__description">Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
-      <button class="hero__button subTitle">See product</button>
-    </div>
-
-   
-
-  </section>
-
-
-
-  Headphones
-  Shop
-
-  Speakers
-  Shop
-
-  Earphones
-  Shop
-
-  ZX9 speaker
-  Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
-  See product
-
-  ZX7 speaker
-  See product
-
-  YX1 earphones
-  See product
-
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones, 
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration 
-  rooms available for you to browse and experience a wide range of our products. Stop by our store 
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable 
-  audio equipment.
-
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers 
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and 
-  visit our demo facility - we’re open 7 days a week.
-
-  Copyright 2021. All Rights Reserved
-</body>
+        Headphones Shop Speakers Shop Earphones Shop ZX9 speaker Upgrade to
+        premium speakers that are phenomenally built to deliver truly remarkable
+        sound. See product ZX7 speaker See product YX1 earphones See product
+        Bringing you the best audio gear Located at the heart of New York City,
+        Audiophile is the premier store for high end headphones, earphones,
+        speakers, and audio accessories. We have a large showroom and luxury
+        demonstration rooms available for you to browse and experience a wide
+        range of our products. Stop by our store to meet some of the fantastic
+        people who make Audiophile the best place to buy your portable audio
+        equipment. Home Headphones Speakers Earphones Audiophile is an all in
+        one stop to fulfill your audio needs. We're a small team of music lovers
+        and sound specialists who are devoted to helping you get the most out of
+        personal audio. Come and visit our demo facility - we’re open 7 days a
+        week. Copyright 2021. All Rights Reserved
+    </body>
 </html>

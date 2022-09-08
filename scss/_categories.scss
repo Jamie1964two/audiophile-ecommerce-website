@@ -1,0 +1,68 @@
+// Because why not?
+
+.categories {
+
+    padding-top: rem(40px);
+
+    &__card {
+        height: 13.5625rem;
+        text-align: center;
+    }
+
+    &__grey {
+        position: relative;
+        background-color: #f2f2f2;
+        border-radius: 8px;
+        height: 10.3125rem;
+        margin: 3.25rem 1.5rem 0 1.5rem;
+    }
+
+    &__blur {
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2rem;
+        height: rem(14px);
+        width: rem(95px);
+
+        background: #000000;
+        filter: blur(20px);
+    }
+
+    &__cardContent {
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -3.5rem;
+    }
+
+    &__category {
+        font-size: rem(15px);
+        letter-spacing: 0.0625rem; //1px
+        font-weight: 700;
+        text-transform: uppercase;
+        color: black;
+        margin-top: rem(32px);
+        margin-bottom: 0;
+    }
+
+    &__link {
+        display: inline-block;
+        font-size: rem(13px);
+        letter-spacing: 0.0625rem; //1px
+        font-weight: 700;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.501);
+        text-decoration: none;
+        vertical-align: middle;
+    }
+
+    &__arrow {
+        display: inline-block;
+        vertical-align: middle;
+        color: $orange;
+        //font-size: calc(50/16)rem;
+        font-size: rem(25px);
+        margin-top: rem(-6px);
+    }
+}
